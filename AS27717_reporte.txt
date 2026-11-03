@@ -1,0 +1,1044 @@
+INFORME DE REPUTACIÓN IP
+AS27717 — Corporación Digitel C.A. (Venezuela)
+Fecha de consulta: 3 de noviembre de 2026
+Fuentes: AbuseIPDB (ventana de 30 días), VirusTotal, MetaDefender Cloud
+
+RESUMEN
+IPv4 reportadas en el espacio consultado: 144
+Reportes AbuseIPDB (30 días): 652
+Confianza >= 75: 6
+Confianza >= 50: 11
+Confianza >= 25: 58
+VirusTotal malicioso (1 o más motores): 74
+VirusTotal solo suspicious: 40
+VirusTotal sin detección: 30
+MetaDefender con detección: 6
+VirusTotal confirmó las 144 direcciones como AS27717 / Corporación Digitel C.A.
+
+LÍMITES DE LA CONSULTA
+- AbuseIPDB check-block solo cubre 30 días con esta clave y tiene un tope de 100 consultas al día.
+- Se consultaron 97 de 218 prefijos /24. Este archivo no es el universo completo del AS.
+- Sin escanear: 186.167.128.0/18, 190.121.224.0/20, 200.71.240.0/21, 217.26.191.0/24,
+  y dentro de 186.167.0.0/17 los /24 186.167.89, .92, .94 y el tramo 186.167.99–186.167.127.
+- 154.57.57.0/24 quedó cubierto por completo.
+- IPv6 anunciado (2800:930::/32 a 2800:936::/32) no es enumerable con estas APIs.
+- VirusTotal Intelligence (búsqueda por ASN) respondió 403. Solo se consultaron las IP ya reportadas.
+- MetaDefender no tiene búsqueda por ASN. 138 de 144 IP devolvieron detected_by=0.
+- La blacklist global de AbuseIPDB (10.000 IP con confianza 100) no incluyó espacio de este AS.
+- Las direcciones son clientes o redes anunciadas por Digitel, no necesariamente servidores del operador.
+  57 IP tienen ISP «Corporación Digitel C.A.»; el resto figura a nombre de clientes aguas abajo.
+
+ÁMBITOS ABUSEIPDB (IPs únicas; una IP puede estar en varios)
+   78  Bot web malicioso
+   78  Ataque web
+   69  Fuerza bruta
+   61  Hacking
+   58  Escaneo de puertos
+   58  DDoS
+   48  Host explotado
+   21  SSH
+   11  Spam web
+    6  Spam blogs
+    5  Inyección SQL
+    3  Spam correo
+    3  Ping of Death
+    3  VPN
+    2  IoT
+    1  Fuerza bruta FTP
+    1  Spoofing
+    1  Proxy abierto
+Sin reportes en el espacio consultado: Compromiso DNS, Envenenamiento DNS, Fraude de pedidos,
+Phishing (categoría 7 de AbuseIPDB), Fraude VoIP.
+Phishing sí aparece en motores de VirusTotal (BitDefender, G-Data, VIPRE, Certego).
+
+METADEFENDER — ÚNICAS DETECCIONES
+  186.167.83.178  conf 67  webroot.com=high risk
+  186.167.71.98  conf 55  webroot.com=high risk
+  186.167.66.14  conf 43  webroot.com=high risk
+  186.167.0.124  conf 41  webroot.com=high risk
+  186.167.81.148  conf 37  blocklist.de=scanner
+  186.167.82.45  conf 13  stopforumspam.com=spam
+
+LISTADO COMPLETO
+Orden: confianza descendente, luego número de reportes.
+VT = motores maliciosos / motores suspicious.
+
+001. 186.167.48.235
+     Confianza 100 | Reportes 54 | Fuentes 24 | 2026-11-03 01:21 UTC
+     ISP: Alivensa Poruguesa | Uso: Fixed Line ISP
+     Ámbitos: Escaneo de puertos, Hacking, Fuerza bruta, Bot web malicioso, Host explotado, Ataque web
+     VirusTotal: 3/3 | MetaDefender: —
+     Motores: alphaMountain.ai:suspicious; AlphaSOC:suspicious; BitDefender:phishing; G-Data:phishing; GreyNoise:malicious; Gridinsoft:suspicious
+
+002. 186.167.4.50
+     Confianza 100 | Reportes 30 | Fuentes 22 | 2026-11-02 13:37 UTC
+     ISP: Corporacion Digitel C.A. | Uso: Fixed Line ISP
+     Ámbitos: Escaneo de puertos, Hacking, Fuerza bruta, Host explotado
+     VirusTotal: 2/2 | MetaDefender: —
+     Motores: AlphaSOC:suspicious; GreyNoise:malicious; Seclookup:malicious; SOCRadar:suspicious
+
+003. 186.167.53.178
+     Confianza 96 | Reportes 30 | Fuentes 18 | 2026-11-03 02:51 UTC
+     ISP: CORPORACIÓN EUREKA, C.A. | Uso: Fixed Line ISP
+     Ámbitos: DDoS, Spam web, Spam correo, Hacking, Inyección SQL, Fuerza bruta, Bot web malicioso, Host explotado, Ataque web
+     VirusTotal: 1/2 | MetaDefender: —
+     Motores: alphaMountain.ai:suspicious; Fortinet:malware; SOCRadar:suspicious
+
+004. 186.167.66.10
+     Confianza 95 | Reportes 46 | Fuentes 21 | 2026-11-03 00:07 UTC
+     ISP: SUPER OCTANOS | Uso: Fixed Line ISP
+     Ámbitos: Escaneo de puertos, Hacking, Fuerza bruta
+     VirusTotal: 4/2 | MetaDefender: —
+     Motores: BitDefender:phishing; Chong Lua Dao:malicious; G-Data:phishing; GreyNoise:malicious; Gridinsoft:suspicious; Guardpot:suspicious
+
+005. 186.167.67.226
+     Confianza 92 | Reportes 43 | Fuentes 19 | 2026-11-02 07:21 UTC
+     ISP: HOSPITAL DE CLINICAS DE CECIAM | Uso: Fixed Line ISP
+     Ámbitos: Escaneo de puertos, Hacking, Fuerza bruta, Host explotado, IoT
+     VirusTotal: 3/2 | MetaDefender: —
+     Motores: alphaMountain.ai:suspicious; Fortinet:malware; GreyNoise:malicious; MalwareURL:malware; SOCRadar:suspicious
+
+006. 186.167.27.90
+     Confianza 84 | Reportes 23 | Fuentes 18 | 2026-10-30 00:05 UTC
+     ISP: Corporacion Digitel C.A. | Uso: Fixed Line ISP
+     Ámbitos: DDoS, Ping of Death, Escaneo de puertos, Hacking, Fuerza bruta, Bot web malicioso, Host explotado, Ataque web, SSH
+     VirusTotal: 3/3 | MetaDefender: —
+     Motores: alphaMountain.ai:suspicious; AlphaSOC:suspicious; Fortinet:malware; GreyNoise:malicious; Gridinsoft:suspicious; MalwareURL:malware
+
+007. 186.167.26.170
+     Confianza 67 | Reportes 22 | Fuentes 9 | 2026-10-31 12:53 UTC
+     ISP: EMPRESAS GARZON SEDE SAN CRISTOBAL | Uso: Mobile ISP
+     Ámbitos: DDoS, Escaneo de puertos, Hacking, Bot web malicioso
+     VirusTotal: 3/2 | MetaDefender: —
+     Motores: alphaMountain.ai:suspicious; Fortinet:malware; GreyNoise:malicious; MalwareURL:malware; SOCRadar:suspicious
+
+008. 186.167.83.178
+     Confianza 67 | Reportes 21 | Fuentes 12 | 2026-11-03 01:12 UTC
+     ISP: INVERSIONES FAROCA SEDE NAIGUATA | Uso: Fixed Line ISP
+     Ámbitos: DDoS, Spam web, Spam correo, Escaneo de puertos, Hacking, Inyección SQL, Fuerza bruta, Bot web malicioso, Host explotado, Ataque web
+     VirusTotal: 0/0 | MetaDefender: webroot.com=high risk
+
+009. 186.167.71.98
+     Confianza 55 | Reportes 9 | Fuentes 8 | 2026-11-02 06:00 UTC
+     ISP: Corporacion Digitel C.A. | Uso: Fixed Line ISP
+     Ámbitos: Escaneo de puertos, Hacking, Inyección SQL, Fuerza bruta, SSH
+     VirusTotal: 2/1 | MetaDefender: webroot.com=high risk
+     Motores: CINS Army:malicious; Fortinet:malware; GreyNoise:suspicious
+
+010. 186.167.83.22
+     Confianza 55 | Reportes 7 | Fuentes 7 | 2026-11-02 23:45 UTC
+     ISP: MAS PLANET SEDE ARAGUA DE BARCELONA 3 | Uso: Fixed Line ISP
+     Ámbitos: Escaneo de puertos, Hacking, Fuerza bruta, Bot web malicioso, Host explotado, Ataque web, SSH
+     VirusTotal: 1/2 | MetaDefender: —
+     Motores: Fortinet:malware; GreyNoise:suspicious; SOCRadar:suspicious
+
+011. 186.167.85.186
+     Confianza 51 | Reportes 10 | Fuentes 8 | 2026-11-02 06:29 UTC
+     ISP: INTELCA CA | Uso: Fixed Line ISP
+     Ámbitos: Escaneo de puertos, Hacking, Bot web malicioso, Host explotado, Ataque web
+     VirusTotal: 2/0 | MetaDefender: —
+     Motores: Fortinet:malware; GreyNoise:malicious
+
+012. 186.167.83.19
+     Confianza 49 | Reportes 7 | Fuentes 6 | 2026-11-02 21:01 UTC
+     ISP: MAS PLANET SEDE ARAGUA DE BARCELONA 3 | Uso: Fixed Line ISP
+     Ámbitos: Escaneo de puertos, Hacking, Fuerza bruta, Bot web malicioso, Ataque web, SSH
+     VirusTotal: 6/4 | MetaDefender: —
+     Motores: alphaMountain.ai:suspicious; BitDefender:phishing; Certego:malicious; CRDF:malicious; CyRadar:suspicious; G-Data:phishing; GreyNoise:suspicious; Gridinsoft:suspicious; Lionic:malicious; VIPRE:phishing
+
+013. 154.57.57.10
+     Confianza 46 | Reportes 10 | Fuentes 8 | 2026-10-30 02:17 UTC
+     ISP: Corporacion Digitel C.A. | Uso: Fixed Line ISP
+     Ámbitos: Escaneo de puertos, Hacking, Fuerza bruta, SSH
+     VirusTotal: 0/1 | MetaDefender: —
+     Motores: GreyNoise:suspicious
+
+014. 154.57.57.4
+     Confianza 46 | Reportes 8 | Fuentes 7 | 2026-11-03 00:28 UTC
+     ISP: Corporacion Digitel C.A. | Uso: Fixed Line ISP
+     Ámbitos: DDoS, Escaneo de puertos, Hacking, Fuerza bruta, Ataque web, SSH
+     VirusTotal: 1/1 | MetaDefender: —
+     Motores: GreyNoise:suspicious; SOCRadar:malware
+
+015. 154.57.57.8
+     Confianza 46 | Reportes 7 | Fuentes 7 | 2026-11-03 00:54 UTC
+     ISP: Corporacion Digitel C.A. | Uso: Fixed Line ISP
+     Ámbitos: DDoS, Escaneo de puertos, Hacking, Fuerza bruta, Bot web malicioso, Host explotado, Ataque web, SSH
+     VirusTotal: 0/1 | MetaDefender: —
+     Motores: GreyNoise:suspicious
+
+016. 186.167.85.187
+     Confianza 45 | Reportes 8 | Fuentes 6 | 2026-11-02 01:35 UTC
+     ISP: INTELCA CA | Uso: Fixed Line ISP
+     Ámbitos: DDoS, Escaneo de puertos, Host explotado, Ataque web
+     VirusTotal: 1/1 | MetaDefender: —
+     Motores: GreyNoise:malicious; SOCRadar:suspicious
+
+017. 186.167.85.130
+     Confianza 45 | Reportes 7 | Fuentes 6 | 2026-11-03 04:17 UTC
+     ISP: Corporacion Digitel C.A. | Uso: Fixed Line ISP
+     Ámbitos: DDoS, Hacking, Fuerza bruta, Bot web malicioso, Host explotado, Ataque web, SSH
+     VirusTotal: 2/1 | MetaDefender: —
+     Motores: alphaMountain.ai:suspicious; Fortinet:malware; GreyNoise:malicious
+
+018. 186.167.66.14
+     Confianza 43 | Reportes 4 | Fuentes 4 | 2026-10-31 14:04 UTC
+     ISP: SUPER OCTANOS | Uso: Fixed Line ISP
+     Ámbitos: Escaneo de puertos, Hacking
+     VirusTotal: 2/1 | MetaDefender: webroot.com=high risk
+     Motores: alphaMountain.ai:suspicious; GreyNoise:malicious; MalwareURL:malware
+
+019. 186.167.6.82
+     Confianza 42 | Reportes 7 | Fuentes 7 | 2026-11-01 10:21 UTC
+     ISP: FUNDAMUSICAL VE | Uso: Fixed Line ISP
+     Ámbitos: Escaneo de puertos, Hacking, Fuerza bruta, Host explotado
+     VirusTotal: 0/2 | MetaDefender: —
+     Motores: alphaMountain.ai:suspicious; GreyNoise:suspicious
+
+020. 186.167.83.167
+     Confianza 42 | Reportes 7 | Fuentes 7 | 2026-11-02 02:21 UTC
+     ISP: TV ZAMORA SEDE EL TIGRE | Uso: Fixed Line ISP
+     Ámbitos: DDoS, Spam web, Spam blogs, Hacking, Fuerza bruta, Bot web malicioso, Host explotado, Ataque web
+     VirusTotal: 0/1 | MetaDefender: —
+     Motores: SOCRadar:suspicious
+
+021. 186.167.0.124
+     Confianza 41 | Reportes 11 | Fuentes 8 | 2026-10-20 01:02 UTC
+     ISP: AEROPUERTO INTERNACIONAL DE MAIQUETIA | Uso: Fixed Line ISP
+     Ámbitos: Escaneo de puertos, Fuerza bruta
+     VirusTotal: 1/0 | MetaDefender: webroot.com=high risk
+     Motores: GreyNoise:malicious
+
+022. 186.167.81.158
+     Confianza 41 | Reportes 7 | Fuentes 7 | 2026-10-23 16:34 UTC
+     ISP: CABLEXPRESS TV SEDE SANTA FE | Uso: Fixed Line ISP
+     Ámbitos: Escaneo de puertos, Hacking, Fuerza bruta, Bot web malicioso, Host explotado, Ataque web, SSH
+     VirusTotal: 4/2 | MetaDefender: —
+     Motores: alphaMountain.ai:suspicious; BitDefender:phishing; Fortinet:malware; G-Data:phishing; GreyNoise:malicious; Gridinsoft:suspicious
+
+023. 186.167.83.21
+     Confianza 41 | Reportes 7 | Fuentes 6 | 2026-11-02 23:45 UTC
+     ISP: MAS PLANET SEDE ARAGUA DE BARCELONA 3 | Uso: Fixed Line ISP
+     Ámbitos: DDoS, VPN, Escaneo de puertos, Hacking, Fuerza bruta, Bot web malicioso, Ataque web, SSH
+     VirusTotal: 2/1 | MetaDefender: —
+     Motores: Fortinet:malware; GreyNoise:suspicious; MalwareURL:malware
+
+024. 186.167.83.18
+     Confianza 41 | Reportes 4 | Fuentes 4 | 2026-10-30 18:48 UTC
+     ISP: MAS PLANET SEDE ARAGUA DE BARCELONA 3 | Uso: Fixed Line ISP
+     Ámbitos: DDoS, Escaneo de puertos, Hacking, Fuerza bruta, Host explotado
+     VirusTotal: 1/1 | MetaDefender: —
+     Motores: Certego:malicious; GreyNoise:suspicious
+
+025. 186.167.51.170
+     Confianza 40 | Reportes 8 | Fuentes 4 | 2026-11-03 04:10 UTC
+     ISP: PROCESADORA DE ALIMENTOS GLORIA | Uso: Fixed Line ISP
+     Ámbitos: Escaneo de puertos, Hacking, Host explotado
+     VirusTotal: 2/0 | MetaDefender: —
+     Motores: GreyNoise:malicious; MalwareURL:malware
+
+026. 154.57.57.6
+     Confianza 39 | Reportes 7 | Fuentes 7 | 2026-10-26 23:45 UTC
+     ISP: Corporacion Digitel C.A. | Uso: Fixed Line ISP
+     Ámbitos: DDoS, Escaneo de puertos, Fuerza bruta, Bot web malicioso, Ataque web, SSH
+     VirusTotal: 2/0 | MetaDefender: —
+     Motores: GreyNoise:malicious; MalwareURL:malware
+
+027. 186.167.81.10
+     Confianza 39 | Reportes 5 | Fuentes 5 | 2026-11-02 14:05 UTC
+     ISP: CABLEXPRESS TV SEDE BARBACOA | Uso: Fixed Line ISP
+     Ámbitos: DDoS, Escaneo de puertos, Hacking, Fuerza bruta, Bot web malicioso, Host explotado, Ataque web
+     VirusTotal: 1/1 | MetaDefender: —
+     Motores: GreyNoise:suspicious; MalwareURL:malware
+
+028. 186.167.83.194
+     Confianza 39 | Reportes 5 | Fuentes 4 | 2026-10-30 01:27 UTC
+     ISP: CABLE CENTRO SUR SEDE GUACA | Uso: Fixed Line ISP
+     Ámbitos: DDoS, Bot web malicioso, Host explotado, Ataque web
+     VirusTotal: 3/2 | MetaDefender: —
+     Motores: alphaMountain.ai:suspicious; BitDefender:phishing; G-Data:phishing; GreyNoise:malicious; Gridinsoft:suspicious
+
+029. 154.57.57.7
+     Confianza 37 | Reportes 7 | Fuentes 7 | 2026-10-28 05:03 UTC
+     ISP: Corporacion Digitel C.A. | Uso: Fixed Line ISP
+     Ámbitos: DDoS, Ping of Death, Escaneo de puertos, Hacking, Fuerza bruta, Bot web malicioso, SSH
+     VirusTotal: 0/1 | MetaDefender: —
+     Motores: GreyNoise:suspicious
+
+030. 154.57.57.3
+     Confianza 37 | Reportes 5 | Fuentes 5 | 2026-11-01 21:10 UTC
+     ISP: Corporacion Digitel C.A. | Uso: Fixed Line ISP
+     Ámbitos: DDoS, Escaneo de puertos, Hacking, Fuerza bruta, Bot web malicioso, Ataque web, SSH
+     VirusTotal: 0/2 | MetaDefender: —
+     Motores: GreyNoise:suspicious; Gridinsoft:suspicious
+
+031. 186.167.81.148
+     Confianza 37 | Reportes 5 | Fuentes 5 | 2026-10-31 02:10 UTC
+     ISP: CABLEXPRESS TV SEDE SANTA FE | Uso: Fixed Line ISP
+     Ámbitos: DDoS, Hacking, Fuerza bruta, Bot web malicioso, Host explotado, Ataque web
+     VirusTotal: 0/4 | MetaDefender: blocklist.de=scanner
+     Motores: AlphaSOC:suspicious; GreyNoise:suspicious; Gridinsoft:suspicious; SOCRadar:suspicious
+
+032. 186.167.7.34
+     Confianza 35 | Reportes 8 | Fuentes 7 | 2026-10-20 21:00 UTC
+     ISP: AEROPUERTO INTERNACIONAL DE MAIQUETIA | Uso: Fixed Line ISP
+     Ámbitos: Escaneo de puertos, Fuerza bruta
+     VirusTotal: 2/0 | MetaDefender: —
+     Motores: GreyNoise:malicious; SOCRadar:malware
+
+033. 186.167.85.188
+     Confianza 35 | Reportes 3 | Fuentes 3 | 2026-10-30 10:42 UTC
+     ISP: INTELCA CA | Uso: Fixed Line ISP
+     Ámbitos: VPN, Escaneo de puertos, Hacking, Fuerza bruta
+     VirusTotal: 2/0 | MetaDefender: —
+     Motores: GreyNoise:malicious; MalwareURL:malware
+
+034. 186.167.81.156
+     Confianza 34 | Reportes 4 | Fuentes 4 | 2026-10-30 21:00 UTC
+     ISP: CABLEXPRESS TV SEDE SANTA FE | Uso: Fixed Line ISP
+     Ámbitos: Escaneo de puertos, Hacking, Fuerza bruta, Bot web malicioso, SSH
+     VirusTotal: 2/1 | MetaDefender: —
+     Motores: GreyNoise:malicious; MalwareURL:malware; SOCRadar:suspicious
+
+035. 154.57.57.2
+     Confianza 33 | Reportes 4 | Fuentes 4 | 2026-10-29 06:19 UTC
+     ISP: Corporacion Digitel C.A. | Uso: Fixed Line ISP
+     Ámbitos: DDoS, Escaneo de puertos, Hacking, Fuerza bruta, Bot web malicioso, Host explotado, SSH
+     VirusTotal: 0/1 | MetaDefender: —
+     Motores: GreyNoise:suspicious
+
+036. 186.167.35.162
+     Confianza 33 | Reportes 4 | Fuentes 2 | 2026-11-02 13:00 UTC
+     ISP: POLINTER CA | Uso: Fixed Line ISP
+     Ámbitos: Escaneo de puertos, Hacking, Fuerza bruta
+     VirusTotal: 4/3 | MetaDefender: —
+     Motores: alphaMountain.ai:suspicious; BitDefender:phishing; Certego:phishing; G-Data:phishing; GreyNoise:suspicious; Gridinsoft:suspicious; SOCRadar:phishing
+
+037. 186.167.82.32
+     Confianza 32 | Reportes 5 | Fuentes 4 | 2026-11-02 12:41 UTC
+     ISP: CABLE BRASIL | Uso: Fixed Line ISP
+     Ámbitos: DDoS, Bot web malicioso, Host explotado, Ataque web
+     VirusTotal: 0/2 | MetaDefender: —
+     Motores: GreyNoise:suspicious; SOCRadar:suspicious
+
+038. 186.167.83.162
+     Confianza 31 | Reportes 5 | Fuentes 5 | 2026-10-28 00:07 UTC
+     ISP: TV ZAMORA SEDE EL TIGRE | Uso: Fixed Line ISP
+     Ámbitos: DDoS, Hacking, Bot web malicioso, Host explotado, Ataque web
+     VirusTotal: 1/1 | MetaDefender: —
+     Motores: GreyNoise:malicious; SOCRadar:suspicious
+
+039. 186.167.81.153
+     Confianza 30 | Reportes 4 | Fuentes 4 | 2026-11-01 06:05 UTC
+     ISP: CABLEXPRESS TV SEDE SANTA FE | Uso: Fixed Line ISP
+     Ámbitos: Escaneo de puertos, Fuerza bruta, Bot web malicioso, Ataque web, SSH
+     VirusTotal: 2/2 | MetaDefender: —
+     Motores: GreyNoise:suspicious; Gridinsoft:suspicious; MalwareURL:malware; SOCRadar:malicious
+
+040. 186.167.85.136
+     Confianza 30 | Reportes 4 | Fuentes 3 | 2026-11-02 16:18 UTC
+     ISP: Corporacion Digitel C.A. | Uso: Fixed Line ISP
+     Ámbitos: DDoS, Escaneo de puertos, Hacking, Bot web malicioso, Host explotado, Ataque web
+     VirusTotal: 1/1 | MetaDefender: —
+     Motores: GreyNoise:malicious; SOCRadar:suspicious
+
+041. 186.167.81.159
+     Confianza 30 | Reportes 2 | Fuentes 2 | 2026-10-21 18:59 UTC
+     ISP: CABLEXPRESS TV SEDE SANTA FE | Uso: Fixed Line ISP
+     Ámbitos: Escaneo de puertos, Fuerza bruta
+     VirusTotal: 0/1 | MetaDefender: —
+     Motores: GreyNoise:suspicious
+
+042. 186.167.83.173
+     Confianza 29 | Reportes 3 | Fuentes 3 | 2026-10-23 22:11 UTC
+     ISP: TV ZAMORA SEDE EL TIGRE | Uso: Fixed Line ISP
+     Ámbitos: Spam web, Spam blogs, Fuerza bruta, Bot web malicioso, Host explotado, Ataque web
+     VirusTotal: 1/0 | MetaDefender: —
+     Motores: GreyNoise:malicious
+
+043. 186.167.82.35
+     Confianza 28 | Reportes 4 | Fuentes 3 | 2026-10-28 04:16 UTC
+     ISP: CABLE BRASIL | Uso: Fixed Line ISP
+     Ámbitos: DDoS, Fuerza bruta FTP, Ping of Death, Escaneo de puertos, Hacking, Inyección SQL, Spoofing, Fuerza bruta, Bot web malicioso, Host explotado, Ataque web, SSH, IoT
+     VirusTotal: 0/1 | MetaDefender: —
+     Motores: SOCRadar:suspicious
+
+044. 186.167.83.170
+     Confianza 28 | Reportes 4 | Fuentes 3 | 2026-10-31 18:58 UTC
+     ISP: TV ZAMORA SEDE EL TIGRE | Uso: Fixed Line ISP
+     Ámbitos: DDoS, Bot web malicioso, Ataque web
+     VirusTotal: 0/0 | MetaDefender: —
+
+045. 186.167.82.38
+     Confianza 27 | Reportes 4 | Fuentes 4 | 2026-11-01 03:06 UTC
+     ISP: CABLE BRASIL | Uso: Fixed Line ISP
+     Ámbitos: DDoS, Hacking, Bot web malicioso, Ataque web
+     VirusTotal: 0/1 | MetaDefender: —
+     Motores: GreyNoise:suspicious
+
+046. 186.167.83.174
+     Confianza 27 | Reportes 4 | Fuentes 3 | 2026-11-02 01:11 UTC
+     ISP: TV ZAMORA SEDE EL TIGRE | Uso: Fixed Line ISP
+     Ámbitos: DDoS, Spam web, Bot web malicioso, Ataque web
+     VirusTotal: 1/1 | MetaDefender: —
+     Motores: GreyNoise:malicious; SOCRadar:suspicious
+
+047. 186.167.85.134
+     Confianza 27 | Reportes 4 | Fuentes 3 | 2026-11-02 11:00 UTC
+     ISP: Corporacion Digitel C.A. | Uso: Fixed Line ISP
+     Ámbitos: DDoS, Fuerza bruta, Bot web malicioso, Host explotado, Ataque web
+     VirusTotal: 0/1 | MetaDefender: —
+     Motores: Gridinsoft:suspicious
+
+048. 186.167.71.66
+     Confianza 27 | Reportes 3 | Fuentes 3 | 2026-11-01 11:50 UTC
+     ISP: TECNICA PETROLERA, C.A. (TEPECA) | Uso: Fixed Line ISP
+     Ámbitos: Escaneo de puertos, Fuerza bruta, SSH
+     VirusTotal: 4/1 | MetaDefender: —
+     Motores: CRDF:malicious; GreyNoise:malicious; Gridinsoft:suspicious; MalwareURL:malware; SOCRadar:malicious
+
+049. 186.167.81.150
+     Confianza 26 | Reportes 3 | Fuentes 3 | 2026-10-29 04:13 UTC
+     ISP: CABLEXPRESS TV SEDE SANTA FE | Uso: Fixed Line ISP
+     Ámbitos: DDoS, Spam web, Escaneo de puertos, Hacking
+     VirusTotal: 1/2 | MetaDefender: —
+     Motores: GreyNoise:suspicious; MalwareURL:malware; SOCRadar:suspicious
+
+050. 154.57.57.68
+     Confianza 26 | Reportes 2 | Fuentes 2 | 2026-11-02 05:31 UTC
+     ISP: Corporacion Digitel C.A. | Uso: Fixed Line ISP
+     Ámbitos: DDoS, Bot web malicioso
+     VirusTotal: 1/3 | MetaDefender: —
+     Motores: AlphaSOC:suspicious; Gridinsoft:suspicious; MalwareURL:malware; SOCRadar:suspicious
+
+051. 186.167.83.172
+     Confianza 26 | Reportes 2 | Fuentes 2 | 2026-10-19 05:22 UTC
+     ISP: TV ZAMORA SEDE EL TIGRE | Uso: Fixed Line ISP
+     Ámbitos: Spam web, Spam blogs, Fuerza bruta, Host explotado, Ataque web
+     VirusTotal: 0/2 | MetaDefender: —
+     Motores: GreyNoise:suspicious; SOCRadar:suspicious
+
+052. 186.167.80.106
+     Confianza 25 | Reportes 3 | Fuentes 3 | 2026-10-22 00:19 UTC
+     ISP: CABLE CENTRO SUR SEDE ANACO | Uso: Fixed Line ISP
+     Ámbitos: DDoS, Bot web malicioso, Host explotado, Ataque web
+     VirusTotal: 0/1 | MetaDefender: —
+     Motores: Gridinsoft:suspicious
+
+053. 186.167.81.147
+     Confianza 25 | Reportes 3 | Fuentes 3 | 2026-10-28 03:59 UTC
+     ISP: CABLEXPRESS TV SEDE SANTA FE | Uso: Fixed Line ISP
+     Ámbitos: DDoS, Escaneo de puertos, Hacking, Fuerza bruta, Bot web malicioso, SSH
+     VirusTotal: 2/0 | MetaDefender: —
+     Motores: GreyNoise:malicious; MalwareURL:malware
+
+054. 186.167.85.138
+     Confianza 25 | Reportes 3 | Fuentes 2 | 2026-11-02 04:32 UTC
+     ISP: Corporacion Digitel C.A. | Uso: Fixed Line ISP
+     Ámbitos: DDoS, Spam web, Spam blogs, Fuerza bruta, Host explotado, Ataque web
+     VirusTotal: 0/0 | MetaDefender: —
+
+055. 186.167.81.152
+     Confianza 25 | Reportes 2 | Fuentes 2 | 2026-10-31 22:50 UTC
+     ISP: CABLEXPRESS TV SEDE SANTA FE | Uso: Fixed Line ISP
+     Ámbitos: DDoS, Fuerza bruta, Host explotado
+     VirusTotal: 0/1 | MetaDefender: —
+     Motores: GreyNoise:suspicious
+
+056. 186.167.83.171
+     Confianza 25 | Reportes 2 | Fuentes 2 | 2026-11-02 03:12 UTC
+     ISP: TV ZAMORA SEDE EL TIGRE | Uso: Fixed Line ISP
+     Ámbitos: Hacking, Ataque web
+     VirusTotal: 0/0 | MetaDefender: —
+
+057. 186.167.81.155
+     Confianza 25 | Reportes 1 | Fuentes 1 | 2026-10-29 02:26 UTC
+     ISP: CABLEXPRESS TV SEDE SANTA FE | Uso: Fixed Line ISP
+     Ámbitos: Fuerza bruta, Bot web malicioso, Ataque web
+     VirusTotal: 0/1 | MetaDefender: —
+     Motores: GreyNoise:suspicious
+
+058. 186.167.85.132
+     Confianza 25 | Reportes 1 | Fuentes 1 | 2026-10-29 11:51 UTC
+     ISP: Corporacion Digitel C.A. | Uso: Fixed Line ISP
+     Ámbitos: Escaneo de puertos, Hacking
+     VirusTotal: 1/0 | MetaDefender: —
+     Motores: SOCRadar:malware
+
+059. 186.167.85.141
+     Confianza 24 | Reportes 4 | Fuentes 3 | 2026-10-28 02:12 UTC
+     ISP: Corporacion Digitel C.A. | Uso: Fixed Line ISP
+     Ámbitos: DDoS, Fuerza bruta, Bot web malicioso, Host explotado, Ataque web
+     VirusTotal: 0/0 | MetaDefender: —
+
+060. 186.167.82.41
+     Confianza 24 | Reportes 2 | Fuentes 2 | 2026-10-30 05:52 UTC
+     ISP: CABLE BRASIL | Uso: Fixed Line ISP
+     Ámbitos: DDoS, Ataque web
+     VirusTotal: 2/1 | MetaDefender: —
+     Motores: GreyNoise:suspicious; MalwareURL:malware; Synthient:malicious
+
+061. 154.57.57.65
+     Confianza 23 | Reportes 3 | Fuentes 3 | 2026-11-02 07:17 UTC
+     ISP: Corporacion Digitel C.A. | Uso: Fixed Line ISP
+     Ámbitos: DDoS, Escaneo de puertos, Hacking, Bot web malicioso, Host explotado
+     VirusTotal: 1/0 | MetaDefender: —
+     Motores: GreyNoise:malicious
+
+062. 154.57.57.40
+     Confianza 23 | Reportes 2 | Fuentes 2 | 2026-11-01 01:34 UTC
+     ISP: Corporacion Digitel C.A. | Uso: Fixed Line ISP
+     Ámbitos: Fuerza bruta, Bot web malicioso, Ataque web
+     VirusTotal: 1/1 | MetaDefender: —
+     Motores: GreyNoise:malicious; SOCRadar:suspicious
+
+063. 186.167.83.163
+     Confianza 23 | Reportes 2 | Fuentes 2 | 2026-10-29 15:34 UTC
+     ISP: TV ZAMORA SEDE EL TIGRE | Uso: Fixed Line ISP
+     Ámbitos: Hacking, Fuerza bruta, Bot web malicioso, Ataque web
+     VirusTotal: 1/1 | MetaDefender: —
+     Motores: GreyNoise:malicious; SOCRadar:suspicious
+
+064. 186.167.85.137
+     Confianza 23 | Reportes 2 | Fuentes 2 | 2026-10-30 06:24 UTC
+     ISP: Corporacion Digitel C.A. | Uso: Fixed Line ISP
+     Ámbitos: DDoS, Fuerza bruta, Bot web malicioso, Host explotado, Ataque web
+     VirusTotal: 2/0 | MetaDefender: —
+     Motores: GreyNoise:malicious; SOCRadar:phishing
+
+065. 186.167.81.149
+     Confianza 23 | Reportes 1 | Fuentes 1 | 2026-10-19 17:05 UTC
+     ISP: CABLEXPRESS TV SEDE SANTA FE | Uso: Fixed Line ISP
+     Ámbitos: SSH
+     VirusTotal: 2/0 | MetaDefender: —
+     Motores: Abusix:malicious; GreyNoise:malicious
+
+066. 186.167.85.139
+     Confianza 23 | Reportes 1 | Fuentes 1 | 2026-10-26 07:45 UTC
+     ISP: Corporacion Digitel C.A. | Uso: Fixed Line ISP
+     Ámbitos: Escaneo de puertos, Hacking, Inyección SQL, Fuerza bruta, Ataque web
+     VirusTotal: 1/1 | MetaDefender: —
+     Motores: GreyNoise:malicious; SOCRadar:suspicious
+
+067. 186.167.70.106
+     Confianza 22 | Reportes 3 | Fuentes 3 | 2026-11-02 18:56 UTC
+     ISP: Corporacion Digitel C.A. | Uso: Fixed Line ISP
+     Ámbitos: Escaneo de puertos, Hacking, Host explotado
+     VirusTotal: 0/1 | MetaDefender: —
+     Motores: SOCRadar:suspicious
+
+068. 186.167.83.166
+     Confianza 22 | Reportes 3 | Fuentes 2 | 2026-11-01 20:06 UTC
+     ISP: TV ZAMORA SEDE EL TIGRE | Uso: Fixed Line ISP
+     Ámbitos: DDoS, Fuerza bruta, Bot web malicioso, Host explotado, Ataque web
+     VirusTotal: 1/1 | MetaDefender: —
+     Motores: GreyNoise:malicious; SOCRadar:suspicious
+
+069. 186.167.83.165
+     Confianza 22 | Reportes 2 | Fuentes 2 | 2026-11-02 02:21 UTC
+     ISP: TV ZAMORA SEDE EL TIGRE | Uso: Fixed Line ISP
+     Ámbitos: Spam web, Spam blogs, Fuerza bruta, Bot web malicioso, Host explotado, Ataque web
+     VirusTotal: 0/0 | MetaDefender: —
+
+070. 186.167.85.133
+     Confianza 22 | Reportes 2 | Fuentes 2 | 2026-11-02 05:35 UTC
+     ISP: Corporacion Digitel C.A. | Uso: Fixed Line ISP
+     Ámbitos: Hacking, Bot web malicioso, Ataque web
+     VirusTotal: 1/0 | MetaDefender: —
+     Motores: GreyNoise:malicious
+
+071. 186.167.83.164
+     Confianza 22 | Reportes 1 | Fuentes 1 | 2026-10-25 06:48 UTC
+     ISP: TV ZAMORA SEDE EL TIGRE | Uso: Fixed Line ISP
+     Ámbitos: Spam correo, Hacking
+     VirusTotal: 1/1 | MetaDefender: —
+     Motores: GreyNoise:malicious; SOCRadar:suspicious
+
+072. 154.57.57.20
+     Confianza 21 | Reportes 3 | Fuentes 3 | 2026-10-22 05:00 UTC
+     ISP: Corporacion Digitel C.A. | Uso: Fixed Line ISP
+     Ámbitos: DDoS, Fuerza bruta, Bot web malicioso, Ataque web
+     VirusTotal: 0/0 | MetaDefender: —
+
+073. 186.167.85.180
+     Confianza 21 | Reportes 2 | Fuentes 2 | 2026-11-02 02:21 UTC
+     ISP: TV ZAMORA SEDE PUERTO PIRITU | Uso: Fixed Line ISP
+     Ámbitos: Hacking, Bot web malicioso, Ataque web
+     VirusTotal: 0/1 | MetaDefender: —
+     Motores: alphaMountain.ai:suspicious
+
+074. 186.167.85.181
+     Confianza 21 | Reportes 2 | Fuentes 2 | 2026-10-17 02:43 UTC
+     ISP: TV ZAMORA SEDE PUERTO PIRITU | Uso: Fixed Line ISP
+     Ámbitos: DDoS, Ataque web
+     VirusTotal: 0/1 | MetaDefender: —
+     Motores: alphaMountain.ai:suspicious
+
+075. 186.167.85.60
+     Confianza 21 | Reportes 2 | Fuentes 2 | 2026-10-30 06:29 UTC
+     ISP: TV ZAMORA SEDE ARAGUA DE BARCELONA | Uso: Fixed Line ISP
+     Ámbitos: Fuerza bruta, Bot web malicioso, Ataque web
+     VirusTotal: 0/0 | MetaDefender: —
+
+076. 186.167.81.151
+     Confianza 21 | Reportes 1 | Fuentes 1 | 2026-11-02 12:39 UTC
+     ISP: CABLEXPRESS TV SEDE SANTA FE | Uso: Fixed Line ISP
+     Ámbitos: Bot web malicioso
+     VirusTotal: 0/1 | MetaDefender: —
+     Motores: GreyNoise:suspicious
+
+077. 186.167.85.131
+     Confianza 21 | Reportes 1 | Fuentes 1 | 2026-10-30 06:01 UTC
+     ISP: Corporacion Digitel C.A. | Uso: Fixed Line ISP
+     Ámbitos: Fuerza bruta, Bot web malicioso, Ataque web
+     VirusTotal: 1/2 | MetaDefender: —
+     Motores: Criminal IP:suspicious; MalwareURL:malware; SOCRadar:suspicious
+
+078. 186.167.80.170
+     Confianza 20 | Reportes 2 | Fuentes 2 | 2026-10-29 18:13 UTC
+     ISP: CABLE CENTRO SUR, C.A SEDE PUERTO ORDAZ | Uso: Fixed Line ISP
+     Ámbitos: Escaneo de puertos, Hacking
+     VirusTotal: 0/1 | MetaDefender: —
+     Motores: GreyNoise:suspicious
+
+079. 186.167.82.36
+     Confianza 20 | Reportes 1 | Fuentes 1 | 2026-10-16 21:21 UTC
+     ISP: CABLE BRASIL | Uso: Fixed Line ISP
+     Ámbitos: Spam web, Spam blogs, Fuerza bruta, Host explotado, Ataque web
+     VirusTotal: 0/1 | MetaDefender: —
+     Motores: SOCRadar:suspicious
+
+080. 154.57.57.36
+     Confianza 19 | Reportes 3 | Fuentes 3 | 2026-10-13 01:52 UTC
+     ISP: Corporacion Digitel C.A. | Uso: Fixed Line ISP
+     Ámbitos: DDoS, Hacking, Bot web malicioso, Ataque web
+     VirusTotal: 1/0 | MetaDefender: —
+     Motores: GreyNoise:malicious
+
+081. 154.57.57.66
+     Confianza 19 | Reportes 2 | Fuentes 2 | 2026-10-16 08:30 UTC
+     ISP: Corporacion Digitel C.A. | Uso: Fixed Line ISP
+     Ámbitos: DDoS, Escaneo de puertos, Host explotado
+     VirusTotal: 0/0 | MetaDefender: —
+
+082. 186.167.85.129
+     Confianza 19 | Reportes 2 | Fuentes 2 | 2026-10-12 16:32 UTC
+     ISP: Corporacion Digitel C.A. | Uso: Fixed Line ISP
+     Ámbitos: DDoS, Host explotado
+     VirusTotal: 0/0 | MetaDefender: —
+
+083. 186.167.85.143
+     Confianza 19 | Reportes 2 | Fuentes 1 | 2026-10-27 06:58 UTC
+     ISP: Corporacion Digitel C.A. | Uso: Fixed Line ISP
+     Ámbitos: Ataque web
+     VirusTotal: 0/2 | MetaDefender: —
+     Motores: GreyNoise:suspicious; Gridinsoft:suspicious
+
+084. 186.167.85.22
+     Confianza 19 | Reportes 2 | Fuentes 2 | 2026-10-30 22:10 UTC
+     ISP: TV ZAMORA SAN MATEO | Uso: Fixed Line ISP
+     Ámbitos: Fuerza bruta, Bot web malicioso, Ataque web
+     VirusTotal: 2/0 | MetaDefender: —
+     Motores: Fortinet:malware; GreyNoise:malicious
+
+085. 186.167.85.145
+     Confianza 18 | Reportes 3 | Fuentes 2 | 2026-10-26 07:30 UTC
+     ISP: Corporacion Digitel C.A. | Uso: Fixed Line ISP
+     Ámbitos: Escaneo de puertos, Hacking, Bot web malicioso, Ataque web
+     VirusTotal: 3/1 | MetaDefender: —
+     Motores: ADMINUSLabs:malicious; Fortinet:malware; GreyNoise:malicious; SOCRadar:suspicious
+
+086. 186.167.81.146
+     Confianza 18 | Reportes 2 | Fuentes 2 | 2026-10-30 17:42 UTC
+     ISP: CABLEXPRESS TV SEDE SANTA FE | Uso: Fixed Line ISP
+     Ámbitos: Escaneo de puertos, Hacking, Bot web malicioso, Host explotado
+     VirusTotal: 2/1 | MetaDefender: —
+     Motores: GreyNoise:suspicious; MalwareURL:malware; SOCRadar:malicious
+
+087. 186.167.83.168
+     Confianza 18 | Reportes 1 | Fuentes 1 | 2026-10-28 00:50 UTC
+     ISP: TV ZAMORA SEDE EL TIGRE | Uso: Fixed Line ISP
+     Ámbitos: DDoS, Bot web malicioso
+     VirusTotal: 2/0 | MetaDefender: —
+     Motores: GreyNoise:malicious; SOCRadar:malicious
+
+088. 186.167.82.42
+     Confianza 17 | Reportes 2 | Fuentes 2 | 2026-10-30 12:34 UTC
+     ISP: CABLE BRASIL | Uso: Fixed Line ISP
+     Ámbitos: Hacking, Bot web malicioso
+     VirusTotal: 0/1 | MetaDefender: —
+     Motores: Gridinsoft:suspicious
+
+089. 154.57.57.70
+     Confianza 17 | Reportes 1 | Fuentes 1 | 2026-11-02 16:50 UTC
+     ISP: Corporacion Digitel C.A. | Uso: Fixed Line ISP
+     Ámbitos: Escaneo de puertos, Hacking
+     VirusTotal: 0/1 | MetaDefender: —
+     Motores: GreyNoise:suspicious
+
+090. 186.167.22.190
+     Confianza 17 | Reportes 1 | Fuentes 1 | 2026-10-15 03:00 UTC
+     ISP: HIDROLOGICA PAEZ, C.A | Uso: Fixed Line ISP
+     Ámbitos: Fuerza bruta
+     VirusTotal: 0/1 | MetaDefender: —
+     Motores: Gridinsoft:suspicious
+
+091. 186.167.85.135
+     Confianza 17 | Reportes 1 | Fuentes 1 | 2026-10-31 06:53 UTC
+     ISP: Corporacion Digitel C.A. | Uso: Fixed Line ISP
+     Ámbitos: DDoS, Bot web malicioso
+     VirusTotal: 0/1 | MetaDefender: —
+     Motores: GreyNoise:suspicious
+
+092. 186.167.29.66
+     Confianza 16 | Reportes 3 | Fuentes 1 | 2026-10-31 05:45 UTC
+     ISP: INVERSIONES EL CINE | Uso: Fixed Line ISP
+     Ámbitos: DDoS, Bot web malicioso
+     VirusTotal: 0/1 | MetaDefender: —
+     Motores: SOCRadar:suspicious
+
+093. 154.57.57.67
+     Confianza 16 | Reportes 2 | Fuentes 2 | 2026-10-30 04:53 UTC
+     ISP: Corporacion Digitel C.A. | Uso: Fixed Line ISP
+     Ámbitos: Escaneo de puertos, Hacking, Bot web malicioso
+     VirusTotal: 1/0 | MetaDefender: —
+     Motores: GreyNoise:malicious
+
+094. 186.167.80.171
+     Confianza 16 | Reportes 2 | Fuentes 2 | 2026-10-29 07:55 UTC
+     ISP: CABLE CENTRO SUR, C.A SEDE PUERTO ORDAZ | Uso: Fixed Line ISP
+     Ámbitos: Escaneo de puertos, Hacking, Fuerza bruta
+     VirusTotal: 0/0 | MetaDefender: —
+
+095. 186.167.83.122
+     Confianza 16 | Reportes 2 | Fuentes 2 | 2026-10-24 23:49 UTC
+     ISP: MAS PLANET SEDE SAN FELIX | Uso: Fixed Line ISP
+     Ámbitos: DDoS, Fuerza bruta
+     VirusTotal: 2/0 | MetaDefender: —
+     Motores: GreyNoise:malicious; MalwareURL:malware
+
+096. 186.167.85.62
+     Confianza 16 | Reportes 2 | Fuentes 2 | 2026-10-27 07:58 UTC
+     ISP: TV ZAMORA SEDE ARAGUA DE BARCELONA | Uso: Fixed Line ISP
+     Ámbitos: DDoS, Escaneo de puertos, Bot web malicioso, Host explotado
+     VirusTotal: 2/0 | MetaDefender: —
+     Motores: GreyNoise:malicious; MalwareURL:malware
+
+097. 154.57.57.33
+     Confianza 16 | Reportes 1 | Fuentes 1 | 2026-11-03 01:27 UTC
+     ISP: Corporacion Digitel C.A. | Uso: Fixed Line ISP
+     Ámbitos: Ataque web
+     VirusTotal: 0/1 | MetaDefender: —
+     Motores: GreyNoise:suspicious
+
+098. 154.57.57.37
+     Confianza 16 | Reportes 1 | Fuentes 1 | 2026-10-30 18:35 UTC
+     ISP: Corporacion Digitel C.A. | Uso: Fixed Line ISP
+     Ámbitos: Fuerza bruta, Ataque web
+     VirusTotal: 0/0 | MetaDefender: —
+
+099. 154.57.57.54
+     Confianza 16 | Reportes 1 | Fuentes 1 | 2026-10-25 16:53 UTC
+     ISP: Corporacion Digitel C.A. | Uso: Fixed Line ISP
+     Ámbitos: Fuerza bruta, Bot web malicioso, Ataque web
+     VirusTotal: 0/0 | MetaDefender: —
+
+100. 186.167.81.157
+     Confianza 16 | Reportes 1 | Fuentes 1 | 2026-10-27 08:00 UTC
+     ISP: CABLEXPRESS TV SEDE SANTA FE | Uso: Fixed Line ISP
+     Ámbitos: Ataque web
+     VirusTotal: 0/1 | MetaDefender: —
+     Motores: GreyNoise:suspicious
+
+101. 186.167.85.144
+     Confianza 16 | Reportes 1 | Fuentes 1 | 2026-11-02 12:34 UTC
+     ISP: Corporacion Digitel C.A. | Uso: Fixed Line ISP
+     Ámbitos: DDoS, Bot web malicioso
+     VirusTotal: 1/1 | MetaDefender: —
+     Motores: GreyNoise:malicious; SOCRadar:suspicious
+
+102. 154.57.57.34
+     Confianza 15 | Reportes 1 | Fuentes 1 | 2026-10-23 12:58 UTC
+     ISP: Corporacion Digitel C.A. | Uso: Fixed Line ISP
+     Ámbitos: Ataque web
+     VirusTotal: 1/1 | MetaDefender: —
+     Motores: GreyNoise:malicious; SOCRadar:suspicious
+
+103. 154.57.57.74
+     Confianza 15 | Reportes 1 | Fuentes 1 | 2026-10-17 01:27 UTC
+     ISP: Corporacion Digitel C.A. | Uso: Fixed Line ISP
+     Ámbitos: DDoS, Ataque web
+     VirusTotal: 0/0 | MetaDefender: —
+
+104. 186.167.81.154
+     Confianza 15 | Reportes 1 | Fuentes 1 | 2026-10-30 01:46 UTC
+     ISP: CABLEXPRESS TV SEDE SANTA FE | Uso: Fixed Line ISP
+     Ámbitos: Bot web malicioso, Host explotado
+     VirusTotal: 0/1 | MetaDefender: —
+     Motores: GreyNoise:suspicious
+
+105. 186.167.85.179
+     Confianza 15 | Reportes 1 | Fuentes 1 | 2026-11-02 01:44 UTC
+     ISP: TV ZAMORA SEDE PUERTO PIRITU | Uso: Fixed Line ISP
+     Ámbitos: Fuerza bruta, Bot web malicioso, Ataque web
+     VirusTotal: 1/1 | MetaDefender: —
+     Motores: GreyNoise:malicious; SOCRadar:suspicious
+
+106. 154.57.57.9
+     Confianza 14 | Reportes 2 | Fuentes 2 | 2026-10-13 20:53 UTC
+     ISP: Corporacion Digitel C.A. | Uso: Fixed Line ISP
+     Ámbitos: Escaneo de puertos, Hacking, Fuerza bruta, SSH
+     VirusTotal: 0/2 | MetaDefender: —
+     Motores: GreyNoise:suspicious; SOCRadar:suspicious
+
+107. 186.167.64.2
+     Confianza 14 | Reportes 2 | Fuentes 2 | 2026-10-07 00:01 UTC
+     ISP: VENPRECAR C.A. | Uso: Fixed Line ISP
+     Ámbitos: Escaneo de puertos, Hacking
+     VirusTotal: 3/3 | MetaDefender: —
+     Motores: alphaMountain.ai:suspicious; BitDefender:phishing; Certego:phishing; G-Data:phishing; GreyNoise:suspicious; Gridinsoft:suspicious
+
+108. 186.167.82.43
+     Confianza 14 | Reportes 2 | Fuentes 2 | 2026-10-22 00:04 UTC
+     ISP: CABLE BRASIL | Uso: Fixed Line ISP
+     Ámbitos: DDoS, Hacking, Host explotado
+     VirusTotal: 2/0 | MetaDefender: —
+     Motores: Criminal IP:malicious; SOCRadar:malware
+
+109. 154.57.57.38
+     Confianza 14 | Reportes 1 | Fuentes 1 | 2026-10-24 00:56 UTC
+     ISP: Corporacion Digitel C.A. | Uso: Fixed Line ISP
+     Ámbitos: Ataque web
+     VirusTotal: 1/0 | MetaDefender: —
+     Motores: GreyNoise:malicious
+
+110. 186.167.83.169
+     Confianza 14 | Reportes 1 | Fuentes 1 | 2026-10-30 06:20 UTC
+     ISP: TV ZAMORA SEDE EL TIGRE | Uso: Fixed Line ISP
+     Ámbitos: Hacking, Bot web malicioso, Ataque web
+     VirusTotal: 1/1 | MetaDefender: —
+     Motores: GreyNoise:malicious; SOCRadar:suspicious
+
+111. 186.167.82.45
+     Confianza 13 | Reportes 2 | Fuentes 1 | 2026-10-15 19:29 UTC
+     ISP: CABLE BRASIL | Uso: Fixed Line ISP
+     Ámbitos: DDoS, Escaneo de puertos, Host explotado
+     VirusTotal: 1/0 | MetaDefender: stopforumspam.com=spam
+     Motores: MalwareURL:malware
+
+112. 154.57.57.72
+     Confianza 13 | Reportes 1 | Fuentes 1 | 2026-10-15 17:15 UTC
+     ISP: Corporacion Digitel C.A. | Uso: Fixed Line ISP
+     Ámbitos: DDoS, Escaneo de puertos, Host explotado
+     VirusTotal: 0/0 | MetaDefender: —
+
+113. 186.167.85.147
+     Confianza 11 | Reportes 2 | Fuentes 2 | 2026-10-17 08:52 UTC
+     ISP: Corporacion Digitel C.A. | Uso: Fixed Line ISP
+     Ámbitos: DDoS, Bot web malicioso
+     VirusTotal: 2/0 | MetaDefender: —
+     Motores: GreyNoise:malicious; MalwareURL:malware
+
+114. 154.57.57.21
+     Confianza 11 | Reportes 1 | Fuentes 1 | 2026-10-25 02:11 UTC
+     ISP: Corporacion Digitel C.A. | Uso: Fixed Line ISP
+     Ámbitos: Fuerza bruta, Bot web malicioso, Ataque web
+     VirusTotal: 1/2 | MetaDefender: —
+     Motores: Gridinsoft:suspicious; MalwareURL:malware; SOCRadar:suspicious
+
+115. 154.57.57.24
+     Confianza 11 | Reportes 1 | Fuentes 1 | 2026-10-26 19:51 UTC
+     ISP: Corporacion Digitel C.A. | Uso: Fixed Line ISP
+     Ámbitos: Fuerza bruta, Bot web malicioso, Ataque web
+     VirusTotal: 0/0 | MetaDefender: —
+
+116. 154.57.57.57
+     Confianza 11 | Reportes 1 | Fuentes 1 | 2026-10-27 19:23 UTC
+     ISP: Corporacion Digitel C.A. | Uso: Fixed Line ISP
+     Ámbitos: Fuerza bruta, Bot web malicioso, Ataque web
+     VirusTotal: 0/0 | MetaDefender: —
+
+117. 154.57.57.75
+     Confianza 11 | Reportes 1 | Fuentes 1 | 2026-11-02 05:36 UTC
+     ISP: Corporacion Digitel C.A. | Uso: Fixed Line ISP
+     Ámbitos: Hacking, Bot web malicioso
+     VirusTotal: 0/0 | MetaDefender: —
+
+118. 186.167.80.124
+     Confianza 11 | Reportes 1 | Fuentes 1 | 2026-10-31 07:13 UTC
+     ISP: FULL FIBRA TIC SEDE ARAGUA DE BARCELONA | Uso: Fixed Line ISP
+     Ámbitos: Ataque web
+     VirusTotal: 0/0 | MetaDefender: —
+
+119. 186.167.85.58
+     Confianza 11 | Reportes 1 | Fuentes 1 | 2026-10-29 10:11 UTC
+     ISP: TV ZAMORA SEDE ARAGUA DE BARCELONA | Uso: Fixed Line ISP
+     Ámbitos: Bot web malicioso
+     VirusTotal: 0/0 | MetaDefender: —
+
+120. 186.167.85.59
+     Confianza 11 | Reportes 1 | Fuentes 1 | 2026-11-03 01:55 UTC
+     ISP: TV ZAMORA SEDE ARAGUA DE BARCELONA | Uso: Fixed Line ISP
+     Ámbitos: Ataque web
+     VirusTotal: 0/1 | MetaDefender: —
+     Motores: Gridinsoft:suspicious
+
+121. 186.167.80.169
+     Confianza 10 | Reportes 2 | Fuentes 2 | 2026-10-12 00:05 UTC
+     ISP: CABLE CENTRO SUR, C.A SEDE PUERTO ORDAZ | Uso: Fixed Line ISP
+     Ámbitos: Hacking, Bot web malicioso
+     VirusTotal: 0/2 | MetaDefender: —
+     Motores: GreyNoise:suspicious; SOCRadar:suspicious
+
+122. 154.57.57.19
+     Confianza 10 | Reportes 1 | Fuentes 1 | 2026-11-03 03:30 UTC
+     ISP: Corporacion Digitel C.A. | Uso: Fixed Line ISP
+     Ámbitos: DDoS, Ataque web
+     VirusTotal: 0/0 | MetaDefender: —
+
+123. 154.57.57.39
+     Confianza 10 | Reportes 1 | Fuentes 1 | 2026-10-25 05:11 UTC
+     ISP: Corporacion Digitel C.A. | Uso: Fixed Line ISP
+     Ámbitos: DDoS, Host explotado
+     VirusTotal: 1/1 | MetaDefender: —
+     Motores: GreyNoise:malicious; SOCRadar:suspicious
+
+124. 186.167.18.220
+     Confianza 10 | Reportes 1 | Fuentes 1 | 2026-10-16 03:00 UTC
+     ISP: OSIRIS C.A | Uso: Fixed Line ISP
+     Ámbitos: Fuerza bruta
+     VirusTotal: 1/0 | MetaDefender: —
+     Motores: MalwareURL:malware
+
+125. 186.167.3.106
+     Confianza 10 | Reportes 1 | Fuentes 1 | 2026-10-26 09:19 UTC
+     ISP: BANAVIH C.A. | Uso: Fixed Line ISP
+     Ámbitos: Escaneo de puertos
+     VirusTotal: 0/1 | MetaDefender: —
+     Motores: Gridinsoft:suspicious
+
+126. 186.167.82.39
+     Confianza 10 | Reportes 1 | Fuentes 1 | 2026-10-27 07:18 UTC
+     ISP: CABLE BRASIL | Uso: Fixed Line ISP
+     Ámbitos: DDoS, Spam web
+     VirusTotal: 0/1 | MetaDefender: —
+     Motores: SOCRadar:suspicious
+
+127. 154.57.57.73
+     Confianza 9 | Reportes 1 | Fuentes 1 | 2026-10-14 07:25 UTC
+     ISP: Corporacion Digitel C.A. | Uso: Fixed Line ISP
+     Ámbitos: Ataque web
+     VirusTotal: 1/0 | MetaDefender: —
+     Motores: GreyNoise:malicious
+
+128. 154.57.57.35
+     Confianza 4 | Reportes 1 | Fuentes 1 | 2026-11-01 09:15 UTC
+     ISP: Corporacion Digitel C.A. | Uso: Fixed Line ISP
+     Ámbitos: Hacking, Bot web malicioso, Ataque web
+     VirusTotal: 1/0 | MetaDefender: —
+     Motores: GreyNoise:malicious
+
+129. 154.57.57.86
+     Confianza 4 | Reportes 1 | Fuentes 1 | 2026-10-29 07:28 UTC
+     ISP: Corporacion Digitel C.A. | Uso: Fixed Line ISP
+     Ámbitos: Fuerza bruta, Bot web malicioso, Ataque web
+     VirusTotal: 0/0 | MetaDefender: —
+
+130. 154.57.57.89
+     Confianza 4 | Reportes 1 | Fuentes 1 | 2026-10-26 01:17 UTC
+     ISP: Corporacion Digitel C.A. | Uso: Fixed Line ISP
+     Ámbitos: DDoS, Bot web malicioso
+     VirusTotal: 0/0 | MetaDefender: —
+
+131. 186.167.25.146
+     Confianza 3 | Reportes 2 | Fuentes 1 | 2026-10-26 07:36 UTC
+     ISP: GRUPO CHARGON SEDE SAN CRISTOBAL | Uso: Fixed Line ISP
+     Ámbitos: Fuerza bruta, Bot web malicioso, Ataque web
+     VirusTotal: 1/0 | MetaDefender: —
+     Motores: GreyNoise:malicious
+
+132. 154.57.57.53
+     Confianza 3 | Reportes 1 | Fuentes 1 | 2026-10-26 07:02 UTC
+     ISP: Corporacion Digitel C.A. | Uso: Fixed Line ISP
+     Ámbitos: Fuerza bruta, Bot web malicioso, Ataque web
+     VirusTotal: 0/1 | MetaDefender: —
+     Motores: SOCRadar:suspicious
+
+133. 154.57.57.82
+     Confianza 3 | Reportes 1 | Fuentes 1 | 2026-10-29 06:57 UTC
+     ISP: Corporacion Digitel C.A. | Uso: Fixed Line ISP
+     Ámbitos: Ataque web
+     VirusTotal: 0/0 | MetaDefender: —
+
+134. 186.167.29.18
+     Confianza 3 | Reportes 1 | Fuentes 1 | 2026-10-30 03:00 UTC
+     ISP: ALCALDIA DEL MUNICIPIO SAN CRISTOBAL | Uso: Fixed Line ISP
+     Ámbitos: Fuerza bruta
+     VirusTotal: 4/2 | MetaDefender: —
+     Motores: alphaMountain.ai:suspicious; BitDefender:phishing; Chong Lua Dao:malicious; G-Data:phishing; GreyNoise:malicious; Gridinsoft:suspicious
+
+135. 186.167.49.179
+     Confianza 3 | Reportes 1 | Fuentes 1 | 2026-10-29 11:18 UTC
+     ISP: ALMACENADORA ASOPORTUGUESA | Uso: Fixed Line ISP
+     Ámbitos: Proxy abierto, VPN, Host explotado
+     VirusTotal: 0/0 | MetaDefender: —
+
+136. 186.167.51.90
+     Confianza 3 | Reportes 1 | Fuentes 1 | 2026-11-02 22:01 UTC
+     ISP: TEXCOVEN S.A | Uso: Fixed Line ISP
+     Ámbitos: Escaneo de puertos
+     VirusTotal: 0/1 | MetaDefender: —
+     Motores: alphaMountain.ai:suspicious
+
+137. 186.167.80.172
+     Confianza 3 | Reportes 1 | Fuentes 1 | 2026-10-27 00:25 UTC
+     ISP: CABLE CENTRO SUR, C.A SEDE PUERTO ORDAZ | Uso: Fixed Line ISP
+     Ámbitos: Bot web malicioso
+     VirusTotal: 1/0 | MetaDefender: —
+     Motores: GreyNoise:malicious
+
+138. 186.167.90.14
+     Confianza 3 | Reportes 1 | Fuentes 1 | 2026-10-25 05:41 UTC
+     ISP: CABLE CENTRO SUR SEDE MATURIN | Uso: Fixed Line ISP
+     Ámbitos: Ataque web
+     VirusTotal: 0/0 | MetaDefender: —
+
+139. 154.57.57.49
+     Confianza 2 | Reportes 1 | Fuentes 1 | 2026-10-12 08:33 UTC
+     ISP: Corporacion Digitel C.A. | Uso: Fixed Line ISP
+     Ámbitos: DDoS, Ataque web
+     VirusTotal: 0/1 | MetaDefender: —
+     Motores: SOCRadar:suspicious
+
+140. 186.167.53.2
+     Confianza 2 | Reportes 1 | Fuentes 1 | 2026-10-17 08:18 UTC
+     ISP: MPAGRO SEDE SILOS RIO ACARIGUA | Uso: Fixed Line ISP
+     Ámbitos: Bot web malicioso, Host explotado
+     VirusTotal: 0/0 | MetaDefender: —
+
+141. 186.167.7.10
+     Confianza 2 | Reportes 1 | Fuentes 1 | 2026-10-13 14:51 UTC
+     ISP: AEROPUERTO INTERNACIONAL DE MAIQUETIA | Uso: Fixed Line ISP
+     Ámbitos: Escaneo de puertos
+     VirusTotal: 1/0 | MetaDefender: —
+     Motores: GreyNoise:malicious
+
+142. 186.167.74.186
+     Confianza 2 | Reportes 1 | Fuentes 1 | 2026-10-20 01:40 UTC
+     ISP: MADERAS DEL ORINOCO | Uso: Fixed Line ISP
+     Ámbitos: Escaneo de puertos
+     VirusTotal: 0/0 | MetaDefender: —
+
+143. 186.167.4.226
+     Confianza 1 | Reportes 1 | Fuentes 1 | 2026-10-08 02:43 UTC
+     ISP: Corporacion Digitel C.A. | Uso: Fixed Line ISP
+     Ámbitos: Fuerza bruta, Bot web malicioso, Ataque web
+     VirusTotal: 0/0 | MetaDefender: —
+
+144. 186.167.81.78
+     Confianza 1 | Reportes 1 | Fuentes 1 | 2026-10-05 13:23 UTC
+     ISP: MEGA SYS ARAGUA, C.A | Uso: Fixed Line ISP
+     Ámbitos: Ataque web
+     VirusTotal: 0/0 | MetaDefender: —
+
+FIN DEL INFORME
